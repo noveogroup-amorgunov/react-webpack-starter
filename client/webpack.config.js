@@ -10,18 +10,6 @@ const defaults = {
   },
   module: {
     loaders: [{
-    //   test: path.join(__dirname, 'app'),
-    //   test: /\.js$/
-    //   exclude: /node_modules|libs|vendor/,
-    //   loader: 'babel-loader',
-    //   // query: {
-    //   //   presets: 'es2015',
-    //   // },
-    // }/*, {
-    //   test: /\.jsx$/,
-    //   loader: 'jsx-loader?insertPragma=React.DOM&harmony'
-    // }*/]
-    // {
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components|public)/,
       loader: "babel"

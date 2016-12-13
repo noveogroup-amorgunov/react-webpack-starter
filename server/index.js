@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 
-app.use(express.static(path.join(__dirname + '/../dist')));
+app.use(express.static(path.join(__dirname + '/../client/dist')));
 
 const link = 'https://hh.ru/autosuggest/multiprefix/v2?q={{value}}&d=companies_RU';
 
