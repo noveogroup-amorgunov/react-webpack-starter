@@ -2,6 +2,8 @@
 
 Example of using reactJS with webpack (es6, jsx).
 
+Presentation: https://goo.gl/XndGnb (*russian*)
+
 ### Install
 
 ```
